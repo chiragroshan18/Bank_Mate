@@ -134,7 +134,86 @@ cd bank-mate
  ```bash
 mysql -u root -p < database_setup.sql
 ```
-4. **Configure database connection in db_config.py ** 
+4. **Configure database connection in db_config.py**
+   ```bash
+   conn = mysql.connector.connect(
+    host='localhost',
+    database='pybank',
+    user='your_username',
+    password='your_password'
+   ```
+4. **Run the application**
+```bash
+python main.py
+```
+## 🧭 Usage Guide
+
+### 👤 For Users:
+1. From the main menu, select **"User Login"**  
+2. Enter your **account number** and **PIN**  
+3. Choose from the available options:
+   - 💰 **Deposit Money**
+   - 🏧 **Withdraw Money**
+   - 📜 **View Transaction History**
+
+### 🛡️ For Admins:
+1. From the main menu, select **"Admin Login"**  
+2. Enter your **admin credentials**  
+3. Access the following features:
+   - 👥 **View All Users**
+   - 🔎 **Search Users**
+   - 📊 **View All Transactions**
+   - 🧑‍💼 **Create New Admin Accounts**
+     
+
+## 🖼️ Screenshots
+
+---
+
+### 🔐 Login Screen  
+Initial screen with options for **User Login**.
+
+<img width="727" height="907" alt="login_screen" src="https://github.com/user-attachments/assets/a317526e-29a1-4260-92e2-ba338216a444" />
+
+
+---
+
+### 🧑‍💼 User Dashboard  
+User homepage after login. From here, the user can:
+- 💵 Deposit Money  
+- 🪙 Withdraw Money  
+- 📜 View Transaction History
+
+<img width="568" height="680" alt="user_dashboard" src="https://github.com/user-attachments/assets/958195b3-fe04-4e7b-8788-496912a81e74" />
+
+
+---
+
+### 💼 Transaction Window  
+This screen allows users to:
+- 💸 Perform Deposits  
+- 💰 Make Withdrawals  
+- 📑 View full Transaction History  
+All combined into one easy-to-use interface.
+
+![Transaction Window](https://github.com/user-attachments/assets/412977eb-c522-4f42-bf1c-48006e7534b4)
+
+
+---
+
+### 🛠️ Admin Dashboard  
+Initial screen with options for **Admin Login**.
+<img width="452" height="722" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/fe26777d-fe38-443f-b6ca-0c46cec9dfe0" />
+
+
+
+
+
+
+
+
+
+
 
    
 
