@@ -265,6 +265,10 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 
 
+```bash
+|  BankMate — empowering digital banking with secure, user-friendly automation.
+```
+
 
 
 
