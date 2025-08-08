@@ -258,6 +258,10 @@ BankMate/
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
+## 🌐 Connect
+
+- If you're interested in Python projects, GUI development with PyQt5, or secure fintech applications like ATM systems — feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chirag-roshan18/) or open a discussion here.
+
 
 
 
