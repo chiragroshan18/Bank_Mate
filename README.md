@@ -203,7 +203,58 @@ All combined into one easy-to-use interface.
 
 ### 🛠️ Admin Dashboard  
 Initial screen with options for **Admin Login**.
+
+
+
 <img width="452" height="722" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/fe26777d-fe38-443f-b6ca-0c46cec9dfe0" />
+
+## 🔐 Security Features
+
+
+- 🔒 Password hashing using **bcrypt** for secure storage.
+- 🔢 PINs are stored in **hashed format** for extra protection.
+- 🛡️ Admin verification required for **sensitive operations**.
+- 🧼 Strong **input validation** on all user and admin forms.
+- 🧰 Robust **error handling and logging** to track issues securely.
+
+## 🗂️ Project Structure
+```bash
+
+BankMate/
+├── 🧠 main.py — Main launcher script
+├── 🔐 login_window.py — User login interface
+├── 📝 register_window.py — New user registration
+├── 💸 withdraw_window.py — Withdrawal interface
+├── 💰 deposit_window.py — Deposit interface
+├── 📜 transaction_history.py — View user's transactions
+├── 🧑‍💻 user_dashboard.py — User's main dashboard
+├── 🛡️ admin_login.py — Admin login interface
+├── 🧾 admin_dashboard.py — Admin dashboard
+├── 📋 admin_view_users.py — View all registered users
+├── 📂 admin_view_transactions.py — View all transactions
+├── 🔎 admin_search_user.py — Search users by account
+├── 🆕 register_admin.py — Register a new admin
+├── ⚙️ db_config.py — Database connection config
+├── 🐞 exception_handler.py — Global error handling
+├── 📁 assets/
+│ └── 🖼️ logo.png — App logo
+├── 🖼️ screenshots/
+│ ├── 🔐 user_login.png
+│ ├── 🛡️ admin_dashboard.png
+│ └── 📜 transaction_history.png
+├── 🧱 database_setup.sql — SQL script to create tables
+└── 📦 requirements.txt — Python dependencies
+```
+
+## 🔁  Pipeline
+<img width="5093" height="834" alt="pipeline" src="https://github.com/user-attachments/assets/941af1ae-7cf3-4aeb-b280-447e763480c1" />
+
+## ✍️  Authors
+
+- @chiragroshan18 – Creator & Developer of Bank Mate
+
+
+
 
 
 
