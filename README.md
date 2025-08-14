@@ -1,4 +1,7 @@
 #  🏦  BankMate
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=808080&center=true&width=435&lines=🏦+BankMate" alt="Typing animation" />
+</h1>
 
 🚀 About the Project
 Bank Mate 💳 is a sleek, user-friendly ATM Management System built using Python (PyQt5) and MySQL, designed to replicate the core features of real-world banking in a simple, educational environment.
