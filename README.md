@@ -211,6 +211,14 @@ Initial screen with options for **Admin Login**.
 
 <img width="452" height="722" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/fe26777d-fe38-443f-b6ca-0c46cec9dfe0" />
 
+## 📽️ Demo Video
+
+Watch the **Bank Mate** project in action!
+
+[▶ Watch the Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7372884074878771200/)
+
+---
+
 ## 🔐 Security Features
 
 
